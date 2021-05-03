@@ -9,7 +9,15 @@ def printLogo():
     print('\x1b[37;4mhttps://github.com/younggod-Ash')
     print('\x1b[37;36m')
     print('                            Bluetooth DOS Script                            ')
-    print ('(◎﹏◎) 𝓜𝓪𝓭𝓮 𝓫𝔂 𝓐𝓢𝓗 (◎﹏◎)'    )
+    print ('M'    )
+    print ('.A'    )
+    print ('..D'    )
+    print ('...E'    )
+    print ('....B'    ) 
+    print ('.....Y'    )
+    print ('......A'    )
+    print ('.......S'    )
+    print ('........H'    )
     print('\x1b[0m')
 
 def main():
