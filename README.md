@@ -16,7 +16,7 @@ THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. YOU MAY USE THIS
 ```
 $ sudo apt update
 $ sudo apt install python3
-$ sudo git clonehttps://github.com/younggod-Ash/RipBluetooth.git
+$ sudo git clone https://github.com/younggod-Ash/RipBluetooth.git
 $ cd RipBluetooth/
 $ python3 RipBluetooth.py
 ```
