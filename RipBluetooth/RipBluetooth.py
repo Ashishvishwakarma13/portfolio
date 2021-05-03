@@ -10,6 +10,8 @@ def printLogo():
     print('\x1b[37;36m')
     print('                           RIP Bluetooth                              ')
   print ('(◎﹏◎) 𝓜𝓪𝓭𝓮 𝓫𝔂 𝓐𝓢𝓗 (◎﹏◎)'    )
+
+def main():
     printLogo()
     time.sleep(0.1)
     print('')
