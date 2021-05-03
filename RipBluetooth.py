@@ -7,8 +7,9 @@ def DOS(target_addr, packages_size):
 
 def printLogo():
     print('\x1b[37;4mhttps://github.com/younggod-Ash')
-    print('\x1b[37;36m')
-    print('                            Bluetooth DOS Script                            ')
+    print('\x2b[37;36m')
+    print('                            RipBluetooth : Bluetooth Dos                           ')
+    print ('.............................................................................................................................'    )
     print ('M'    )
     print ('.A'    )
     print ('..D'    )
@@ -18,13 +19,14 @@ def printLogo():
     print ('......A'    )
     print ('.......S'    )
     print ('........H'    )
-    print('\x1b[0m')
+    print ('.............................................................................................................................'    )
+    print('\x2b[0m')
 
 def main():
     printLogo()
     time.sleep(0.1)
     print('')
-    print('\x1b[31mTHIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. YOU MAY USE THIS SOFTWARE AT YOUR OWN RISK. THE USE IS COMPLETE RESPONSIBILITY OF THE END-USER. THE DEVELOPERS ASSUME NO LIABILITY AND ARE NOT RESPONSIBLE FOR ANY MISUSE OR DAMAGE CAUSED BY THIS PROGRAM.')
+    print('\x3b[31mTHIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. YOU MAY USE THIS SOFTWARE AT YOUR OWN RISK. THE USE IS COMPLETE RESPONSIBILITY OF THE END-USER. THE DEVELOPERS ASSUME NO LIABILITY AND ARE NOT RESPONSIBLE FOR ANY MISUSE OR DAMAGE CAUSED BY THIS PROGRAM.')
     if (input("Do you agree? (y/n) > ") in ['y', 'Y']):
         time.sleep(0.1)
         os.system('clear')
